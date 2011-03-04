@@ -4,7 +4,7 @@
 
 ## Tags
 
-* <MTUnpublishedEntries>
+* MTUnpublishedEntries
 * The blog_id argument specifies the blog from which entries should be returned.
 * The lastn  argument specifies the number of entries to return. If this is left blank, then all entries will be returned.
 
