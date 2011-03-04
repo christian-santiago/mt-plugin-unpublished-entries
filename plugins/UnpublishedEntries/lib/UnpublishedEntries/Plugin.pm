@@ -122,7 +122,7 @@ sub UnpublishedEntries {
     my $blog_id = $args->{blog_id};
 
     my $logger = MT::Log->get_logger();
-    $logger->debug("lastn=".$return_count . "\n");
+    $logger->debug("lastn=".$lastn . "\n");
     @unpublishedEntries = getUnpublished($lastn,$blog_id);
 
     my $obj_type = 'entry';
